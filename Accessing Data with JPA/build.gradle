@@ -13,7 +13,7 @@ apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'gs-accessing-data-jpa'
+    baseName = ''
     version =  '0.1.0'
 }
 
@@ -26,8 +26,10 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("com.h2database:h2")
+    compile group: 'org.firebirdsql.jdbc', name: 'jaybird', version: '2.1.6'
+
     testCompile("junit:junit")
 }
-

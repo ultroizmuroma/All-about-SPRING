@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.firebirdsql.jdbc:jaybird:2.1.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.firebirdsql.jdbc/jaybird/2.1.6/a9f57fe983b0ed682778712d2f0b4cb3f2e7bb92/jaybird-2.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.firebirdsql.jdbc/jaybird/2.1.6/9e9b672934c19427e90c6adcf976268290401534/jaybird-2.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
