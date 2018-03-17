@@ -1,0 +1,55 @@
+.task-item {
+  width: 539px;
+  margin-bottom: 10px;
+  float: left;
+  clear: both;
+  padding: 5px;
+  background-image: url("../assets/images/white-paper.PNG");
+}
+
+.task-body {
+  width: 495px;
+  float: left;
+}
+
+.task-controls {
+  width: 44px;
+  float: left;
+}
+
+.task-controls button {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.task-name {
+  width: 385px;
+  margin-right: 5px;
+  float: left;
+  font-size: 20px;
+}
+
+.task-name input {
+
+}
+
+.task-date {
+  width: 100px;
+  float: left;
+  font-size: 14px;
+  text-align: right;
+}
+
+.task-description {
+  float: left;
+  line-height: 1.2;
+  padding: 10px;
+  text-align: justify;
+}
+
+.task-description textarea {
+
+}
+.clear {
+  clear: both;
+}

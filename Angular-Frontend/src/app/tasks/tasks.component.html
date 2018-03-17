@@ -1,0 +1,31 @@
+<h1>Задачи</h1>
+
+<div class="task-item">
+  <div class="task-body">
+    <div class="task-name"><input #taskName /></div>
+    <div class="task-date"><datepicker></datepicker></div>
+    <div class="task-description"><textarea #description ></textarea></div>
+  </div>
+  <div class="task-controls">
+    <button (click)="addTask(taskName.value, description.value);">Добавить</button>
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<div class="task-list" >
+  <div class="task-item" *ngFor="let task of taskList">
+    <div class="task-body">
+      <div class="task-name">{{task.taskName}}</div>
+      <div class="task-date">{{task.endDate | date:'dd.MM.yyyy'}}</div>
+      <div class="task-description">{{task.description}}</div>
+    </div>
+    <div class="task-controls">
+      <button class="material-icons">done</button>
+      <button class="material-icons">mode_edit</button>
+      <button class="material-icons" (click)="deleteTask(task)">delete_forever</button>
+    </div>
+  </div>
+</div>
+
+<img src="../assets/images/white-paper.PNG.jpg" />
