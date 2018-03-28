@@ -9,8 +9,9 @@ public class Task {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
   private Long customerId;
-  @Column(length = 50)
+  @Column(length = 150)
   private String taskName;
+  @Column(length = 500)
   private String description;
   private Date endDate;
   private Boolean active;
